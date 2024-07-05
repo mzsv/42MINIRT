@@ -33,8 +33,8 @@ miniRT is a RayTracer program that generates images of scenes using the Raytraci
 
 ### Zoom In/Out:
 
-- **+**: Zoom out.
-- **-**: Zoom in.
+- **+**: Zoom in.
+- **-**: Zoom out.
 
 ### Note:
 
