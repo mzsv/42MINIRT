@@ -7,7 +7,7 @@ miniRT is a RayTracer program that generates images of scenes using the Raytraci
 ## Features
 
 - **Geometric Objects**: Supports at least three simple geometric objects: plane, sphere, and cylinder.
-- **Scene Description**: Parses a scene description file (`*.rt`) to set up the scene with cameras, lights, and objects.
+- **Scene Description**: Parses a scene description file (`*.rt`) to set up the scene with cameras, lights, and objects. Examples of `*.rt` files are included in maps/.
 - **Transformation**: Allows translation and rotation transformations for objects, lights, and cameras.
 - **Lighting**: Implements ambient and diffuse lighting, spot brightness, hard shadows, and ambiance lighting.
 - **Window Management**: Ensures fluid window management with the miniLibX library, handling window resizing and closure events cleanly.
