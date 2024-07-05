@@ -1,5 +1,14 @@
 # miniRT - RayTracer with miniLibX
 
+## Table of Contents
+
+1. [Overview](#overview)
+2. [Features](#features)
+3. [User Controls](#user-controls)
+4. [How to use](#how-to-use)
+5. [Screenshots](#screenshots)
+6. [Acknowledgments](#acknowledgments)
+
 ## Overview
 
 miniRT is a RayTracer program that generates images of scenes using the Raytracing protocol. Each image represents a scene as seen from a specific viewpoint, defined by simple geometric objects and lighting systems. The project aims to create realistic computer-generated images using concepts of light reflection and refraction.
@@ -13,7 +22,7 @@ miniRT is a RayTracer program that generates images of scenes using the Raytraci
 - **Window Management**: Ensures fluid window management with the miniLibX library, handling window resizing and closure events cleanly.
 - **Error Handling**: Properly exits with error messages for any misconfiguration encountered in the scene description file.
 
-## Controls
+## User Controls
 
 ### Move Camera - Arrow keys
 
@@ -24,14 +33,14 @@ miniRT is a RayTracer program that generates images of scenes using the Raytraci
 
 ### Zoom In/Out:
 
-- **+**: Zoom in.
-- **-**: Zoom out.
+- **+**: Zoom out.
+- **-**: Zoom in.
 
 ### Note:
 
 - The dimentions of the window are defined in includes/scene.h as CANVAS_WIDTH and CANVAS_HEIGHT.
 
-## Getting Started
+## How to use
 
 1. Clone the repository:
    ```sh
@@ -44,6 +53,15 @@ miniRT is a RayTracer program that generates images of scenes using the Raytraci
 3. Run the project with a test map:
    ```sh
    ./miniRT maps/maps/cyl_test.rt
+
+## Screenshots
+
+- ![Scene 1](images_demo/scene_1.png)
+- ![Scene 2](images_demo/scene_2.png)
+- ![Scene 3](images_demo/scene_3.png)
+- ![Scene 4](images_demo/scene_4.png)
+- ![Scene 5](images_demo/scene_5.png)
+- ![Scene 6](images_demo/scene_6.png)
 
 ## Acknowledgements
 
